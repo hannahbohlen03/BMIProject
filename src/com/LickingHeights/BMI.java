@@ -15,17 +15,19 @@ public class BMI {
         double kg;
         double BMI;
 
-        //Initializing
+        //Initializing + Calculating
         greeting = "Hello!";
         System.out.println(greeting + " What is your name?");
         userName = keyboard.nextLine();
         System.out.println("Nice to meet you, " + userName + ". How tall are you, in inches?");
         inches = keyboard.nextInt();
-        m = inches *(0.254/1);
         System.out.println("And how much do you weight, in pounds?");
         lbs = keyboard.nextInt();
-        kg = lbs *(2.205);
         System.out.println("Okay, let me calculate your BMI...");
+
+        m = inches *(0.254/1);
+        kg = lbs *(2.205);
+        BMI = (kg)/(m*m);
 
 
 
