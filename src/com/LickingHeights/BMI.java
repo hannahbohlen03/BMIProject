@@ -32,6 +32,7 @@ public class BMI {
         //Print
         System.out.println(" ");
         System.out.println("Your BMI is " + BMI + ".");
+        System.out.println(" ");
         System.out.println("For a reference, if your BMI is less than 18.5, you are considered underweight.");
         System.out.println("If your BMI is between 18.5 and 24.9, then you are considered in the normal range.");
         System.out.println("If your BMI is between 25 and 29.9, you are considered over weight.");
